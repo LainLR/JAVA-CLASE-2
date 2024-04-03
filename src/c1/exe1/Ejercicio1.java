@@ -8,7 +8,7 @@ package c1.exe1;
  *
  * @author xio
  */
-public class C1Exe1 {
+public class Ejercicio1 {
 
     /**
      * @param args the command line arguments
@@ -18,8 +18,10 @@ public class C1Exe1 {
         
         float miResultado;
         
-        miResultado = ((2*(Math.pow(-3, miNum)))+(5*(Math.pow(2, miNum)))- (8*miNum))/(Math.sqrt(miNum))
-               
+        miResultado = (2 * (float)Math.pow(miNum, -3) + 5 * (float)Math.pow(miNum, 2) - 8 * miNum) / (float)Math.sqrt(9 * (float)Math.pow(miNum, 3) - 2 * (float)Math.pow(miNum, 2) + miNum);
+    
+        System.out.print('El resultado de la operación es: ');
+        System.out.println(miNum);
     }
     
 }
