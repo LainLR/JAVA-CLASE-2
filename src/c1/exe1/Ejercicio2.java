@@ -13,16 +13,16 @@ public class Ejercicio2 {
     public static void main(String[] args) {
         
     
-    float radCir1 = 4:
+    float radCir1 = 4;
     float radCir2 = 2;
     
     float altCir1 = 5;
-    float altCir2 = 2.5;
+        double altCir2 = 2.5;
     
-    final float PI = 3.1415;
+    final double PI = 3.1415;
     
-    float areaTotal1 = 2*PI*radCir1*(radCir1+altCir1);
-    float areaTotal2 = 2*PI*radCir2*(radCir2+altCir2);
+    float areaTotal1 = (float) (2*PI*radCir1*(radCir1+altCir1));
+    float areaTotal2 = (float) (2*PI*radCir2*(radCir2+altCir2));
             
         System.out.print("El área total del cilindo 1 es: ");
         System.out.println(areaTotal1);

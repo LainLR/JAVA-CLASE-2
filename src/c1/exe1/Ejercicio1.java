@@ -20,8 +20,8 @@ public class Ejercicio1 {
         
         miResultado = (2 * (float)Math.pow(miNum, -3) + 5 * (float)Math.pow(miNum, 2) - 8 * miNum) / (float)Math.sqrt(9 * (float)Math.pow(miNum, 3) - 2 * (float)Math.pow(miNum, 2) + miNum);
     
-        System.out.print('El resultado de la operación es: ');
-        System.out.println(miNum);
+        System.out.print("El resultado de la operación es: ");
+        System.out.println(miResultado);
     }
     
 }
